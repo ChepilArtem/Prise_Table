@@ -18,8 +18,8 @@
   height: 770px;
   background-color: #334247;
   margin: 115px 0 115px 0;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding-top: 33px;
+  padding-bottom: 33px;
 }
 .price-card__title {
   font-size: 35px;
@@ -53,11 +53,11 @@
   margin: 0 auto;
   margin-bottom: 40px;
 }
-.price-card__on-list {
+.price-card__options-list {
   height: 50px;
   line-height: 50px;
 }
-.price-card__on-list:nth-child(odd) {
+.price-card__options-list:nth-child(odd) {
   background-color: rgba(42, 52, 56, 0.5);
 }
 .price-card__img {

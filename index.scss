@@ -19,8 +19,8 @@
     height: 770px;
     background-color: #334247;
     margin: 115px 0 115px 0;
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 33px;
+    padding-bottom: 33px;
 
     &__title {
         font-size: 35px;
@@ -59,12 +59,12 @@
         margin-bottom: 40px;
     }
 
-    &__on-list {
+    &__options-list {
         height: 50px;
         line-height: 50px;
     }
 
-    &__on-list:nth-child(odd) {
+    &__options-list:nth-child(odd) {
         background-color: rgba(42, 52, 56, 0.5);
     }
 
