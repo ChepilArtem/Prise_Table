@@ -20,7 +20,6 @@
     background-color: #334247;
     margin: 115px 0 115px 0;
     padding-top: 33px;
-    padding-bottom: 33px;
 
     &__title {
         font-size: 35px;
@@ -36,19 +35,23 @@
         margin-bottom: 33px;
     }
 
-    &__money-block {
+    &__price {
         width: 380px;
         height: 105px;
         background-color: #5BB189;
         margin-bottom: 40px;
-    }
-
-    &__number {
         font-weight: 700;
         font-size: 55px;
         line-height: 102px;
         text-align: center;
     }
+
+    // &__number {
+    //     font-weight: 700;
+    //     font-size: 55px;
+    //     line-height: 102px;
+    //     text-align: center;
+    // }
 
     &__description {
         font-size: 15px;
@@ -96,7 +99,7 @@
     position: relative;
 }
 
-.price-card:nth-child(3n-1) > .price-card__money-block {
+.price-card:nth-child(3n-1) > .price-card__price {
     background-color: #3A6BA5;
 }
 
@@ -106,7 +109,7 @@
 //////////////////////////////////////////////////
 
 //////////////////////Third__block/////////////////
-.price-card:nth-child(3n) > .price-card__money-block {
+.price-card:nth-child(3n) > .price-card__price {
     background-color: #EC632A;
 }
 
