@@ -98,18 +98,18 @@
 
 .popular {
   position: absolute;
-  left: 262px;
-  top: 27px;
+  left: 265px;
+  top: 30px;
   height: 0px;
   width: 145px;
   text-align: center;
   font-weight: bold;
   font-size: 14px;
   line-height: 25px;
-  transform: rotate(42deg);
+  transform: rotate(45deg);
   border-bottom: 25px solid #DC3F45;
-  border-left: 28px solid transparent;
-  border-right: 22px solid transparent;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
 }
 
 /*# sourceMappingURL=style.css.map */
